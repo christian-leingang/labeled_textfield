@@ -4,7 +4,7 @@ import 'package:labeled_text/labeled_text.dart';
 
 void main() {
   test('adds one to input values', () {
-    final labeledText = LabeledText(
+    const labeledText = LabeledText(
       description: 'Name',
       lineColor: Colors.red,
       value: 'Spotify',
