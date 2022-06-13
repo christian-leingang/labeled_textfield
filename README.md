@@ -14,4 +14,6 @@ import 'package:labeled_text/labeled_text.dart';
 const labeledText(value: "Spotify", description: "Name", lineColor: Colors.red)
 ```
 
+Displays a Text with your Label like this:
+
 ![img.png](img.png)
