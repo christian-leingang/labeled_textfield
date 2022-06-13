@@ -2,13 +2,12 @@ library labeled_textfield;
 
 import 'package:flutter/material.dart';
 
-class LabeledTextfield extends StatelessWidget {
+class LabeledText extends StatelessWidget {
   String description;
   String value;
   Color lineColor;
 
-  LabeledTextfield(
-      {Key? key, required this.description, required this.value, required this.lineColor})
+  LabeledText({Key? key, required this.description, required this.value, required this.lineColor})
       : super(key: key);
 
   @override
