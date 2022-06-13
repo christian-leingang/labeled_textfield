@@ -1,5 +1,5 @@
 name: labeled_text
-description: A Flutter Widget for a labeled Text
+description: A Flutter Widget to display Text with a custom label field.
 version: 0.0.1
 homepage: https://github.com/christian-leingang/labeled_textfield
 
