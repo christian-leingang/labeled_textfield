@@ -36,6 +36,7 @@ class _MyHomePageState extends State<MyHomePage> {
         appBar: AppBar(
           title: Text(widget.title),
         ),
-        body: const LabeledText(description: "Name", value: "Spotify", lineColor: Colors.red));
+        body: const LabeledText(
+            description: "Name", value: "Spotify", lineColor: Colors.red));
   }
 }

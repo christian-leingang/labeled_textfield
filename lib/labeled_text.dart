@@ -8,7 +8,10 @@ class LabeledText extends StatelessWidget {
   final Color lineColor;
 
   const LabeledText(
-      {Key? key, required this.description, required this.value, required this.lineColor})
+      {Key? key,
+      required this.description,
+      required this.value,
+      required this.lineColor})
       : super(key: key);
 
   @override
