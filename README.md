@@ -17,3 +17,17 @@ const labeledText(value: "Spotify", description: "Name", lineColor: Colors.red)
 Displays a Text with your Label like this:
 
 ![img.png](img.png)
+
+## Publish to pub.dev
+
+To run a test deploy:
+
+```
+$ dart pub publish --dry-run
+```
+
+To run the final deploy:
+
+```
+$ dart pub publish
+```

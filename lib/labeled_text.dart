@@ -10,8 +10,13 @@ class LabeledText extends StatelessWidget {
       required this.lineColor})
       : super(key: key);
 
+  /// Field above Text
   final String description;
+
+  ///Textvalue
   final String value;
+
+  ///Color of the line below Text
   final Color lineColor;
 
   @override
